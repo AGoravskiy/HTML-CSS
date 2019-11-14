@@ -1,0 +1,152 @@
+body{
+    background-color: #2C3C49;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.conteiner {
+    width: 810px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+.normal-package-z2 {
+    z-index: 2;
+    width: 200px;
+    border: 2px solid #3D8BAE;
+    position: absolute;
+    margin-left: 202px;
+    margin-top: -10px;
+    background:  #2C3C49;
+}
+.add{
+    background: #2C3C49;
+    widows: 100%;
+    height: 10px;
+}
+
+.small-package {
+    width: 200px;
+    border-left: 2px solid #4C5864;
+    border-top: 2px solid #4C5864;
+    border-bottom: 2px solid #4C5864;
+    z-index: 1;
+    float: left;
+}
+.normal-package-z1 {
+    width: 200px;
+    float: left;
+    border-left: 2px solid #4C5864;
+    border-top: 2px solid #4C5864;
+    border-bottom: 2px solid #4C5864;
+    z-index: 1;
+}
+.big-package {
+    width: 200px;
+    float: left;
+    border-left: 2px solid #4C5864;
+    border-top: 2px solid #4C5864;
+    border-bottom: 2px solid #4C5864;
+    position: relative;
+    z-index: 1;
+}
+.hot {
+    width: 13px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 185px;
+    margin-top: -4px;
+}
+.hot img {
+    width: 100%;
+}
+.best-package {
+    width: 200px;
+    float: left;
+    border: 2px solid #4C5864;
+    z-index: 1;
+}
+.conteiner div p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hr-long {
+    border: none;
+    width: 50px;
+    height: 2px;
+    background-color: #4C5864;
+    color: #4C5864;
+    margin: 3px auto;
+}
+
+.hr-short {
+    border: none;
+    width: 30px;
+    height: 2px;
+    background-color: #4C5864;
+    color: #4C5864;
+    margin: 3px auto;
+}
+
+.money {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.month {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 10px;
+    color:  #4C5864;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+ul li {
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+ul li span {
+    color: #2F7398;
+}
+
+ul li:nth-child(odd) {
+    background: #283643;
+}
+
+.normal-package-z2 ul li span{
+    color: #FD5721;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background: #4C5864;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    width: 120px;
+    font-weight: bold;
+}
+
+.normal-package-z2 input {
+    background: #FD5721;
+}
