@@ -1,32 +1,282 @@
-.main {
-    background-color: rgb(192, 192, 192);
-    width: 600px;
-    height: 300px;
+body {
+    background-color: rgb(239, 239, 240);
+    font-family: 'Montserrat', sans-serif;
 }
-.box {
-    width: 100%;
-    height: 100%;
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat.ttf);
 }
-.divImg {
-    margin-top: 4%;
-    margin-left: 4%;
-    padding-right: 2%;
+
+.conteiner {
+    width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+.main-col{
+    width: 535px;
     float: left;
-    width: 60%;
-    border-right: 3px solid #523626;
+    margin-right: 15px;
+    background-color: white;
+
 }
-.divText {
-    margin-top: 4%;
-    float: right;
-    width: 30%;
+.post-inf-box{
+    padding: 5%;
+    display: block;
+    
+}
+.post-inf-box-img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 20px;
+}
+.post-inf-box h4 {
+    font-size: 28px;
+    margin: 0 0 5px 0;
+}
+.post-inf-box-img img {
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+.post-inf-box ul {
+    list-style: none;
+    font-size: 12px;
+}
+.post-inf-box ul li{
+    display: inline-block;
+    color: rgb(87, 87, 87);
+    margin-right: 5px;
+}
+.post-inf-box ul li img{
+    height: 16px;
+    float: left;
+    margin-right: 2px;
+}
+.post {
+    width: 100%;
+}
+
+.post-inf {
+    width: 100%;
+}
+
+.div-img {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+    position: relative;
+}
+.edit {
+    background-color: white;
+    position: absolute;
+    bottom: -25px;
+    left: 230px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+}
+
+.post-img {
+    width: 100%;
+    display: block;
+}
+
+.description {
+    width: 100%;
+    white-space: normal;
+    position: relative;
 }
 p {
+    margin: 20px;
+}
+.right-col {
+    width: 250px;
+    float: left;
+}
+.search {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 20px;
+    display: inline-block;
+    align-content: center;
+}
+.search-text {
+    background-color: rgb(48, 48, 48);
+    border: none;
+    width: 140px;
+    color: white;
+    padding: 5px;
+}
+.search-button {
+    background-color: green;
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.search div {
+    padding: 10px;
+    display: inline-block;
+}
+
+.categories {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.categories h5 {
+    border-bottom: 1px solid rgb(239, 239, 240);
+    padding: 15px 10px;
     margin: 0;
+    font-size: 14px;
+}
+
+.categories ul {
+    margin: 15px 25px;
     padding: 0;
 }
-.pImg {
-    text-align: right;
+
+.categories li {
+    padding: 8px 0;
+    list-style: none;
+    border-bottom: 1px solid rgb(239, 239, 240);
 }
-.pMain {
-    font-size: 26px;
+
+.categories li:last-child{
+    border: none;
+}
+.categories li a{
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+}
+
+.latest-posts {
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 20px; 
+}
+.latest-posts-img-lighthouse{
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: url(images/lighthouse.jpg) no-repeat;
+    background-size: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.latest-posts-img-beer{
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: url(images/beer.jpg) no-repeat;
+    background-size: auto 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.latest-posts-img-port-harbor{
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: url(images/PortHarbor.jpg) no-repeat;
+    background-size: auto 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.latest-posts-img-underground {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: url(images/underground.jpg) no-repeat;
+    background-size: auto 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.latest-posts h5 {
+    border-bottom: 1px solid rgb(239, 239, 240);
+    padding: 15px 10px;
+    margin: 0;
+    font-size: 14px;
+}
+
+.latest-posts ul {
+    width: initial;
+    padding: 15px 15px;
+    margin: 0px;
+    list-style: none;
+}
+
+.latest-posts ul li {
+    width: 100%;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.latest-posts ul li a{
+    text-decoration: none;
+    color: black;
+}
+.latest-posts ul li p{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: rgb(148, 148, 148);
+}
+.latest-posts ul li h6{
+    margin: 5px 0;
+}
+
+
+.latest-posts-img img{
+    height: 50px;
+    float: left;
+    border-radius: 25px;
+}
+
+.social {
+    height: 30px;
+    
+    float: right;
+    display: block;
+}
+.social a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+}
+.social a:last-child {
+    width: max-content;
+    height: auto;
+    text-decoration:none;
+    color: black;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.social a:last-child img{
+    height: 14px;
+}
+.social-fb {
+    background: url(images/fb.svg);
+}
+.social-tw {
+    background: url(images/tw.svg);
+}
+.social-g {
+    background: url(images/g.svg);
+}
+.social-in {
+    background: url(images/in.svg);
 }
